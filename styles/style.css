@@ -146,7 +146,7 @@ header > button {
     font-family: "Fira Sans", serif;
 }
 
-.future-card{
+.future-card1{
     width: 400px;
     height: 320px;
     display: flex;
@@ -158,26 +158,26 @@ header > button {
     border-radius: 16px;
 }
 
-.future-card>img{
+.future-card1>img{
     width: 60px;
     height: 60px;
     background-color: rgba(84,144,245,.0);
 }
 
-.future-card>h4{
+.future-card1>h4{
     font-size: 18px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.8);
     background-color: rgba(84,144,245,.0);
 }
-.future-card>p{
+.future-card1>p{
     font-size: 15px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.7);
     background-color: rgba(84,144,245,.0);
 }
 
-.future-card>button{
+.future-card1>button{
     border-radius: 8px;
     background-color: #5490F5;
     color: white;
@@ -188,4 +188,24 @@ header > button {
     font-size: 15px;
     font-weight: 600;
     font-family: "Fira Sans", serif;
+}
+
+.future-card2{
+  background-color: #C6E4D6;
+}
+
+.future-card2>button{
+  background-color: #09A15C;
+}
+.future-cards{
+  display: flex;
+  gap: 24px;
+}
+
+.future-card3{
+  background-color: #F7EBCF;
+}
+
+.future-card3>button{
+  background-color: #FFC239;
 }
