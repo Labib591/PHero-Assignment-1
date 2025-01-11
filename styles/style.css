@@ -30,6 +30,11 @@ header > button {
   border-radius: 8px;
 }
 
+header > button:hover {
+  background-color: #006a50;
+  color: white;
+}
+
 /* main */
 .hero {
   width: 1159px;
@@ -201,7 +206,9 @@ header > button {
   font-weight: 600;
   font-family: "Fira Sans", serif;
 }
-
+.future-card1 > button:hover {
+  background-color: #3a7bea;
+}
 .future-card2 {
   background-color: #c6e4d6;
 }
@@ -209,6 +216,11 @@ header > button {
 .future-card2 > button {
   background-color: #09a15c;
 }
+
+.future-card2 > button:hover {
+  background-color: #06844b;
+}
+
 .future-cards {
   display: flex;
   gap: 24px;
@@ -220,6 +232,10 @@ header > button {
 
 .future-card3 > button {
   background-color: #ffc239;
+}
+
+.future-card3 > button:hover {
+  background-color: #e19e02;
 }
 
 .future-quote {
@@ -273,11 +289,9 @@ header > button {
   font-family: "Fira Sans", serif;
 }
 .future-satelite {
-  /* image 3 */
 position: static;
 width: 408px;
 height: 306px;
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -292,7 +306,6 @@ background: url("../assets/satelite.png") no-repeat;
   padding: 0px;
   height: 390px;
   gap: 32px;
-  /* Inside Auto Layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -351,6 +364,10 @@ background: url("../assets/satelite.png") no-repeat;
   height: 48px;
 }
 
+.future-satelite-text > button:hover{
+  background-color: #00503f;
+}
+
 .donate{
   margin-top: 45px;
   margin-left: 143px;
@@ -402,7 +419,7 @@ background: url("../assets/satelite.png") no-repeat;
 #donation{
   border-radius: 8px;
   background-color: white;
-  color: white;
+  color: gray;
   height: 60px;
   width: 1030px;
   padding: 16px 32px;
@@ -427,7 +444,9 @@ background: url("../assets/satelite.png") no-repeat;
   width: 150px;
   height: 56px;
 }
-
+.donate-button:hover{
+  background-color: #02502b;
+}
 .subscribe{
   margin-top: 55px;
   margin-left: 143px;
@@ -465,7 +484,7 @@ background: url("../assets/satelite.png") no-repeat;
 }
 .subscribe-input > input{
   border-radius: 8px 0px 0px 8px;
-  color: white;
+  color: gray;
   height: 60px;
   width: 600px;
   padding: 18px 40px;
@@ -490,6 +509,10 @@ background: url("../assets/satelite.png") no-repeat;
   font-family: "Fira Sans", serif;
   width: 150px;
   height: 60px;
+}
+
+.subscribe-input > button:hover{
+  background-color: #02502b;
 }
 
 footer{
